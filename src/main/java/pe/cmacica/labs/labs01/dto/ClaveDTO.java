@@ -2,6 +2,8 @@ package pe.cmacica.labs.labs01.dto;
 
 public class ClaveDTO {
 
+    private String typeDocument;
+    private String document;
     private String oldPassword;
     private String newPassword;
 
@@ -20,5 +22,22 @@ public class ClaveDTO {
 
     public void setNewPassword(String newPassword) {
         this.newPassword = newPassword;
+    }
+
+
+    public String getTypeDocument() {
+        return typeDocument;
+    }
+
+    public void setTypeDocument(String typeDocument) {
+        this.typeDocument = typeDocument;
+    }
+
+    public String getDocument() {
+        return document;
+    }
+
+    public void setDocument(String document) {
+        this.document = document;
     }
 }
